@@ -1,0 +1,15 @@
+block vars
+-let heading = "Homepage"
+-let title = "Homepage For Reals."
+include ./includes/header
+
+-console.log(collections.posts)
+body
+ h1 Main index page.
+ each i in collections.posts
+  div
+   a(href=i.url)
+    h2= i.data.title
+   h4= "The author is: " + i.data.author
+
+ script(src="/assets/script.js")
