@@ -1,7 +1,7 @@
 ---
 title: My third post
 description: My second entry into all of this
-date: Date()
+date: 2020-10-27T06:54:22.471Z
 author: Christopher Olsen
 ---
 # My third post
